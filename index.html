@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobHunt - Find Your Dream Job</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span class="highlight">Job</span>Hunt</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="#companies">Companies</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <button class="btn btn-outline">Login</button>
+                <button class="btn btn-primary">Post Resume</button>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Find Your <span class="highlight">Dream Job</span></h1>
+            <p>Connect with top companies and discover opportunities that match your skills</p>
+            
+            <!-- Search Box -->
+            <div class="search-box">
+                <div class="search-field">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Job title, keywords, or company">
+                </div>
+                <div class="search-field">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" placeholder="City, state, or pincode">
+                </div>
+                <div class="search-field">
+                    <select>
+                        <option>Select Category</option>
+                        <option>Software Jobs</option>
+                        <option>Marketing Jobs</option>
+                        <option>Sales Jobs</option>
+                        <option>HR Jobs</option>
+                        <option>Finance Jobs</option>
+                    </select>
+                </div>
+                <button class="btn btn-search">Search Jobs</button>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>10K+</h3>
+                    <p>Active Jobs</p>
+                </div>
+                <div class="stat">
+                    <h3>5K+</h3>
+                    <p>Companies</p>
+                </div>
+                <div class="stat">
+                    <h3>1L+</h3>
+                    <p>Resume Posted</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Popular Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>IT Software</h3>
+                    <p>2,500+ Jobs</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Marketing</h3>
+                    <p>1,800+ Jobs</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Sales</h3>
+                    <p>1,200+ Jobs</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-users"></i>
+                    <h3>HR / Recruitment</h3>
+                    <p>800+ Jobs</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Finance</h3>
+                    <p>950+ Jobs</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-industry"></i>
+                    <h3>Manufacturing</h3>
+                    <p>700+ Jobs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Jobs -->
+    <section class="featured-jobs">
+        <div class="container">
+            <h2 class="section-title">Featured Jobs</h2>
+            <div class="jobs-grid">
+                <div class="job-card">
+                    <div class="job-header">
+                        <img src="https://via.placeholder.com/50" alt="Company">
+                        <div>
+                            <h3>Senior Python Developer</h3>
+                            <p>Tech Innovators Pvt Ltd</p>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <span><i class="fas fa-map-marker-alt"></i> Bangalore</span>
+                        <span><i class="fas fa-clock"></i> Full Time</span>
+                        <span><i class="fas fa-rupee-sign"></i> 8-15 LPA</span>
+                    </div>
+                    <p class="job-desc">Looking for experienced Python developer with Django and Flask experience...</p>
+                    <div class="job-footer">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <button class="btn btn-apply">Apply Now</button>
+                    </div>
+                </div>
+                
+                <div class="job-card">
+                    <div class="job-header">
+                        <img src="https://via.placeholder.com/50" alt="Company">
+                        <div>
+                            <h3>UI/UX Designer</h3>
+                            <p>Creative Solutions</p>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <span><i class="fas fa-map-marker-alt"></i> Mumbai</span>
+                        <span><i class="fas fa-clock"></i> Full Time</span>
+                        <span><i class="fas fa-rupee-sign"></i> 5-10 LPA</span>
+                    </div>
+                    <p class="job-desc">Design intuitive user interfaces for web and mobile applications...</p>
+                    <div class="job-footer">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI Design</span>
+                        <button class="btn btn-apply">Apply Now</button>
+                    </div>
+                </div>
+                
+                <div class="job-card">
+                    <div class="job-header">
+                        <img src="https://via.placeholder.com/50" alt="Company">
+                        <div>
+                            <h3>Data Scientist</h3>
+                            <p>DataTech Analytics</p>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <span><i class="fas fa-map-marker-alt"></i> Hyderabad</span>
+                        <span><i class="fas fa-clock"></i> Full Time</span>
+                        <span><i class="fas fa-rupee-sign"></i> 10-20 LPA</span>
+                    </div>
+                    <p class="job-desc">Analyze complex data sets and build predictive models...</p>
+                    <div class="job-footer">
+                        <span class="tag">ML</span>
+                        <span class="tag">Python</span>
+                        <button class="btn btn-apply">Apply Now</button>
+                    </div>
+                </div>
+                
+                <div class="job-card">
+                    <div class="job-header">
+                        <img src="https://via.placeholder.com/50" alt="Company">
+                        <div>
+                            <h3>DevOps Engineer</h3>
+                            <p>Cloud Systems Inc</p>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <span><i class="fas fa-map-marker-alt"></i> Pune</span>
+                        <span><i class="fas fa-clock"></i> Full Time</span>
+                        <span><i class="fas fa-rupee-sign"></i> 7-12 LPA</span>
+                    </div>
+                    <p class="job-desc">Manage CI/CD pipelines and cloud infrastructure...</p>
+                    <div class="job-footer">
+                        <span class="tag">AWS</span>
+                        <span class="tag">Docker</span>
+                        <button class="btn btn-apply">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="jobs.html" class="btn btn-outline">View All Jobs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Companies -->
+    <section class="companies" id="companies">
+        <div class="container">
+            <h2 class="section-title">Top Hiring Companies</h2>
+            <div class="company-grid">
+                <div class="company-card">
+                    <img src="https://via.placeholder.com/80" alt="Company">
+                    <h3>TCS</h3>
+                    <p>500+ Openings</p>
+                </div>
+                <div class="company-card">
+                    <img src="https://via.placeholder.com/80" alt="Company">
+                    <h3>Infosys</h3>
+                    <p>400+ Openings</p>
+                </div>
+                <div class="company-card">
+                    <img src="https://via.placeholder.com/80" alt="Company">
+                    <h3>Wipro</h3>
+                    <p>350+ Openings</p>
+                </div>
+                <div class="company-card">
+                    <img src="https://via.placeholder.com/80" alt="Company">
+                    <h3>Accenture</h3>
+                    <p>300+ Openings</p>
+                </div>
+                <div class="company-card">
+                    <img src="https://via.placeholder.com/80" alt="Company">
+                    <h3>Cognizant</h3>
+                    <p>280+ Openings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Resume Building</h3>
+                    <p>Create professional resumes that stand out</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Job Alerts</h3>
+                    <p>Get personalized job notifications</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Skill Assessment</h3>
+                    <p>Evaluate your skills and get certified</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Career Counseling</h3>
+                    <p>Expert guidance for career growth</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Toggle Button -->
+    <div class="chatbot-toggle" onclick="toggleChatbot()">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <!-- Chatbot Container -->
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-header">
+            <h3><i class="fas fa-robot"></i> Job Assistant</h3>
+            <button class="close-chat" onclick="toggleChatbot()">&times;</button>
+        </div>
+        <div class="chatbot-messages" id="chatMessages">
+            <div class="bot-message">
+                <p>Hello! I'm your AI job search assistant. I can help you with:</p>
+                <ul>
+                    <li>Finding jobs matching your skills</li>
+                    <li>Resume tips and guidance</li>
+                    <li>Interview preparation</li>
+                    <li>Career advice</li>
+                </ul>
+                <p>How can I help you today?</p>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="userInput" placeholder="Type your message..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><span class="highlight">Job</span>Hunt</h3>
+                    <p>Your trusted partner in finding the perfect job. We connect talented individuals with leading companies.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>For Job Seekers</h4>
+                    <ul>
+                        <li><a href="#">Search Jobs</a></li>
+                        <li><a href="#">Post Resume</a></li>
+                        <li><a href="#">Job Alerts</a></li>
+                        <li><a href="#">Top Companies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>For Employers</h4>
+                    <ul>
+                        <li><a href="#">Post a Job</a></li>
+                        <li><a href="#">Search Resume</a></li>
+                        <li><a href="#">Employer Login</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> support@jobhunt.com</li>
+                        <li><i class="fas fa-phone"></i> +91 1234567890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Bangalore, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 JobHunt. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
